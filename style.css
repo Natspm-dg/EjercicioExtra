@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #2D2D2D;
+    background: #efefef;
+    margin: 0;
+}
+
+.logo {
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+}
+
+.text-primary-red {
+    color: #e00032 !important;
+}
+
+header {
+    background: #fff;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.01);
+}
+
+#hero {
+    background: #e00032;
+    color: #fff;
+    min-height: 440px;
+    padding: 0;
+}
+
+.hero-title {
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+.hero-title .fw-bold {
+    color: #fff;
+}
+
+.hero-desc {
+    font-size: 1.1rem;
+    max-width: 470px;
+}
+
+.hero-btn {
+    border: 2px solid #fff;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    background: transparent;
+    transition: background .2s, color .2s;
+}
+
+.hero-btn:hover {
+    background: #fff;
+    color: #e00032;
+    border-color: #fff;
+}
+
+.hero-img {
+    max-width: 370px;
+    margin-top: 30px;
+}
+
+#services {
+    background: #efefef;
+}
+
+.section-title {
+    letter-spacing: 1px;
+    font-size: 2rem;
+}
+
+#clients {
+    background: #e00032;
+    color: #fff;
+}
+
+.client-logo {
+    font-size: 1.2rem;
+    display: inline-block;
+    margin: 0 20px;
+    vertical-align: middle;
+}
+
+.client-logo img {
+    display: block;
+    margin: 0 auto 6px auto;
+}
+
+#team {
+    background: #fff;
+}
+
+.team-member {
+    background: #fff;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.03);
+    transition: box-shadow .2s;
+    position: relative;
+    overflow: hidden;
+}
+
+.team-member:hover {
+    box-shadow: 0 6px 18px rgba(224,0,50,0.08);
+}
+
+.team-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    border-bottom: 4px solid #e00032;
+    margin-bottom: 15px;
+}
+
+.team-role {
+    font-size: 0.96rem;
+    color: #888;
+}
+
+#footer {
+    background: #2D2D2D;
+    color: #fff;
+}
+
+#footer .designer {
+    color: #e00032;
+}
